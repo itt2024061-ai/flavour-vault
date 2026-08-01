@@ -5,11 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FlavorVault - Complete Recipe Portal</title>
   
-  <!-- Bootstrap CSS -->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
@@ -323,7 +321,7 @@
 </head>
 <body>
 
-  <!-- Header Navigation -->
+
   <header>
     <nav>
       <a href="#home" class="logo">
@@ -339,10 +337,9 @@
     </nav>
   </header>
 
-  <!-- Main Container -->
   <div class="container">
 
-    <!-- Home Section -->
+
     <section id="home">
       <div class="hero">
         <div class="hero-bg"></div>
@@ -360,7 +357,6 @@
 
     <hr class="divider">
 
-    <!-- Categories Section -->
     <section id="categories">
       <h2 class="section-title">Browse Recipes by Category</h2>
       <p class="section-subtitle">Filter dishes by meal type.</p>
@@ -378,7 +374,6 @@
 
     <hr class="divider">
 
-    <!-- Recipe Details Section -->
     <section id="recipe-details">
       <h2 class="section-title">Selected Recipe Details</h2>
       <p class="section-subtitle">Detailed ingredients and cooking instructions.</p>
@@ -410,7 +405,6 @@
 
     <hr class="divider">
 
-    <!-- Submit Recipe Section -->
     <section id="add-recipe">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -449,7 +443,6 @@
 
     <hr class="divider">
 
-    <!-- Contact Us Section -->
     <section id="contact">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -489,15 +482,11 @@
 
   </div>
 
-  <!-- Footer -->
   <footer>&copy; 2026 FlavorVault Inc. All rights reserved.</footer>
 
-  <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Combined JavaScript Logic -->
   <script>
-    // Initial Array of recipes
     var recipes = [
       {
         id: "med-bowl",
@@ -629,7 +618,6 @@
       document.getElementById('recipe-details').scrollIntoView({ behavior: 'smooth' });
     }
 
-    // Handle Recipe Form Submission
     function handleRecipeSubmit(event) {
       event.preventDefault();
       
@@ -658,7 +646,6 @@
       showDetails(newRecipe.id);
     }
 
-    // Handle Contact Form Submission
     function handleContactSubmit(event) {
       event.preventDefault();
       var form = document.getElementById('contactForm');
